@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# .exe extensions
+ffmpeg.exe
+ffprobe.exe
+
 # C extensions
 *.so
 
@@ -127,6 +131,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+virtualenv/
 
 # Spyder project settings
 .spyderproject
