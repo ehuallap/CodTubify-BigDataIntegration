@@ -57,16 +57,16 @@ def stop_song():
 
 def check_for_directory():
     #print("\nBefore check_for_directory Used: ",os.getcwd())                                               
-    if os.getcwd()==("src/backend/temp_audio"):
+    if os.getcwd()==("backend/temp_audio"):
         pass
-    else: os.chdir("src/backend/temp_audio")    
+    else: os.chdir("backend/temp_audio")    
     #print("\nAfter check_for_directory: ",os.getcwd())
 
 
 def return_to_main_directory():
     #For a More detailed Understanding uncomment these print statements
     #print("\nBefore return_to_main_directory: ",os.getcwd())
-    os.chdir("../../../") 
+    os.chdir("../../") 
     #print("\nAfter return_to_main_directory: ",os.getcwd())
 
 
@@ -74,7 +74,7 @@ def return_to_main_directory_from_playlist():
     #Had to make this Function as os.chdir("../../../")  wasn't going back to the Desired Dir
     #For a More detailed Understanding uncomment the print statements
     #print(" before return_to_main_directory: ",os.getcwd())
-    os.chdir("../../../../") 
+    os.chdir("../../../") 
     #print("after return_to_main_directory: ",os.getcwd())
 
 #############################################################

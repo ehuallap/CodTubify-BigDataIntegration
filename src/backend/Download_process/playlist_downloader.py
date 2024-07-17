@@ -6,8 +6,8 @@ option={'final_ext': 'mp3',
                      'nopostoverwrites': False,
                      'preferredcodec': 'mp3',
                      'preferredquality': '5'}],
- 'outtmpl': 'src/backend/temp_audio/%(title)s.%(ext)s',
- 'ffmpeg_location': 'src/backend/Download_process/ffmpeg.exe'}
+ 'outtmpl': 'backend/temp_audio/%(title)s.%(ext)s',
+ 'ffmpeg_location': 'backend/Download_process/ffmpeg.exe'}
 
 
 def download_playlist(plylst):
